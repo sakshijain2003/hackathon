@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    el="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>  
+
+        <!--nav1 start-->
+
+        <nav class="nav1">
+            <div class="left">
+                <span>Welcome to my Website</span>
+                <a href="#">Register</a> OR
+                <a href="#">Login</a>
+            </div> 
+            <div class="right">
+                <i class="fa fa-amazon"></i>
+                <i class="fa fa-apple"></i>
+                <i class="fa fa-google"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+
+            </div> 
+        </nav>
+        <!--nav1 end-->
+
+        <!--nav2 start-->
+        <nav class="nav2">
+            <div class="nav2-left">
+                <i class="fa fa-phone"></i> +91 7828020358..
+                <i class="fa fa-envelope"></i>  publicbuyer@gmail.com
+            </div>
+            <div class="nav2-centre"> 
+                <h1>Public<span>Buyer</span></h1>
+                <p>Connect people around the world</p>
+            </div>
+            <div class="nav2-right">
+                <i class="fa fa-map"></i> Contact us
+            </div>
+        </nav>
+        <!--nav2 end-->
+
+        <!-- nav3 start-->
+        <nav class="nav3">
+            <ul>
+                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>Users</a></li>
+                <li><a href="#"><i class="fa fa-users"></i>Accessories</a></li>
+                <li><a href="#"><i class="fa fa-anchor"></i>
+                      Items<i class="fa fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-clipboard"></i>Wooden</a></li>       
+                        <li><a href="#"><i class="fa fa-mobile"></i>Electronic</a></li>  
+                        <li><a href="#"><i class="fa fa-gavel"></i>Iron</a></li>                   
+                    </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-calendar-check-o"></i>Special offers</a></li>
+                    <li><a href="#"><i class="fa fa-search"></i>Find</a></li>
+            </ul>
+        </nav>
+        <!--nav3 end-->
+
+        <!-- featured start-->
+        <section class="featured">
+            <div class="featured-text">
+                <div class="container">
+                <h1> Log In</h1>
+                <div class="box">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email"name="email" id="email" placeholder="Enter Your Email"> 
+                </div>
+                <div class="box">
+                    <i class="fa fa-key"></i>
+                    <input type="password"name="password" id="password" placeholder="EnterYour Password">
+
+                </div>
+                <button class="btn">Sign In</button>
+                </div>
+            </div>
+        </section>
+    <!-- featured end-->
+    
+    <!--latest start-->    
+    <section class="latest">
+        <div class="product-intro">
+            <h1>Furniture<span>Arrivals</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="card-container">
+        <div class="card">
+            <div>
+                <img src="https://5.imimg.com/data5/MW/QG/PX/SELLER-101024061/l-shape-sofa-500x500.jpg">
+
+            </div>
+            <h1>Sofa Set</h1>
+            <span>  
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card">
+        <div>
+
+<img src="https://hatil.com/sites/default/files/styles/hatil_product_list_crop/public/Epiphany-115%20_0.jpg?itok=qXhTJyFy.jpg">
+
+        </div>
+        <h1>Bed</h1>
+        <span>  
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>$500.00</p>
+        <button>Add to cart</button>
+    </div>
+    <div class="card">
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0JHvPmdn-T1JSisUyEobyCN9k7piXqJSKvg&usqp=CAU.jpg">
+        
+                </div>
+                <h1>BookSelf</h1>
+                <span> 
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$500.00</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+            <div>
+                <img src="https://wakefitdev.gumlet.io/img/study-tables/neptune/2.jpg?w=732.jpg">
+           
+                        </div>
+                        <h1> Study Table</h1>
+                        <span>  
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        <p>$500.00</p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <div>
+                            <img src="https://static-01.daraz.pk/p/262062f80b05c2723e8e4693f88584dc.jpg">
+            
+                        </div>
+                        <h1> Hanging swing chair</h1>
+                        <span>  
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        <p>$500.00</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card">
+                    <div>
+            
+            <img src="https://www.themaark.com/image/catalog/sofa/sofa%20front%20image%20/modern-diwaniwuis-kepang.jpg">
+            
+                    </div>
+                    <h1> Sofa</h1>
+                    <span>  
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <p>$500.00</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="card">
+                <div>
+                    <img src="https://www.luckyfurniture.in/wp-content/uploads/2018/07/dining-table-18-650x750.jpg">
+                    
+                            </div>
+                            <h1> Dinning Table</h1>
+                            <span> 
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <p>$500.00</p>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class="card">
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr7-ReaggfJACcguQMFVODgK5yfcEyR6UOVw&usqp=CAU.jpg">
+                       
+                                    </div>
+                                    <h1> Dressing Table</h1>
+                                    <span>  
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                    <p>$500.00</p>
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+
+    </section>
+    <!--latest end-->
+    <!-- electronic item start-->
+    <section class="latest">
+        <div class="product-intro">
+            <h1>Electronic<span>Items</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="https://static.digit.in/default/bea8f8e45df9a63974de4bfe8c98e11a4db9cfb4.jpeg?tr=w-1200.jpg">
+                </div>
+                <h1> Washing Machine</h1>
+                <span>  
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$500.00</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+            <div>
+    
+    <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71L-lTQnJiL._AC_SS450_.jpg">
+            </div>
+            <h1>Smart TV</h1>
+            <span>  
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$500.00</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="card">
+        <div>
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71E5zB1qbIL._SL1500_.jpg">
+            
+                    </div>
+                    <h1> Mobile</h1>
+                    <span> 
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <p>$500.00</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="card">
+                <div>
+                    <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41ZJJLODSAL._SY450_.jpg">
+               
+                            </div>
+                            <h1> Laptop</h1>
+                            <span>  
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <p>$500.00</p>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <div>
+                                <img src="https://namibind.com/wp-content/uploads/2022/03/2-21.jpg">
+                        </div>
+                            <h1> Locker</h1>
+                            <span>  
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                            <p>$500.00</p>
+                            <button>Add to cart</button>
+                        </div>
+                        <div class="card">
+                        <div>
+                
+                <img src="https://5.imimg.com/data5/KR/ZW/KF/SELLER-70548475/commercial-microwave-oven-500x500.jpg">
+                        </div>
+                        <h1>MicroWave</h1>
+                        <span>  
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        <p>$500.00</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="card">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51hbo8yQ1EL._SL1500_.jpg">
+                        
+                                </div>
+                                <h1>AC </h1>
+                                <span> 
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <p>$500.00</p>
+                                <button>Add to cart</button>
+                            </div>
+                            <div class="card">
+                            <div>
+                                <img src="https://4.imimg.com/data4/UD/SH/ANDROID-47531432/product-500x500.jpeg">
+                           
+                                        </div>
+                                        <h1> Refrigerator</h1>
+                                        <span>  
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <p>$500.00</p>
+                                        <button>Add to cart</button>
+                                    </div>
+                                </div>
+                               
+    </section>
+    <footer>
+        <div>
+            <h1>Public<span>Buyer</span></h1><br>
+            <p>Connect people around the world</p>
+        </div>
+        <div>
+            <i class="fa fa-amazon"></i>
+            <i class="fa fa-apple"></i>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <p><br>Design by Roshan Sen</p>
+        </div>
+        <div>
+            <p>@2021 Copyright All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    
+    </header>
+
+    
+    
+</body>
+</html>
